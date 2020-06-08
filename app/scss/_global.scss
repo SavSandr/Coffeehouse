@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+button{
+    border: none;
+}
+body{
+    font-size: 14px;
+    color: #383435;
+    font-weight: 400;
+    font-family: 'Philosopher', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

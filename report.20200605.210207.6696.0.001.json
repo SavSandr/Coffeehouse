@@ -1,0 +1,806 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200605.210207.6696.0.001.json",
+    "dumpEventTime": "2020-06-05T21:02:07Z",
+    "dumpEventTimeStamp": "1591365727288",
+    "processId": 6696,
+    "threadId": null,
+    "cwd": "C:\\1моя папочка1\\верстка\\портфолио\\Coffee-house",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\пк\\AppData\\Roaming\\npm/node_modules/gulp/bin/gulp.js"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz",
+        "speed": 1992,
+        "user": 4992953,
+        "nice": 0,
+        "sys": 3051125,
+        "idle": 17238859,
+        "irq": 390921
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz",
+        "speed": 1992,
+        "user": 4480406,
+        "nice": 0,
+        "sys": 1967656,
+        "idle": 18834468,
+        "irq": 39500
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz",
+        "speed": 1992,
+        "user": 5689062,
+        "nice": 0,
+        "sys": 2200140,
+        "idle": 17393312,
+        "irq": 41093
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-6006U CPU @ 2.00GHz",
+        "speed": 1992,
+        "user": 4800343,
+        "nice": 0,
+        "sys": 1984421,
+        "idle": 18497734,
+        "irq": 31593
+      }
+    ],
+    "host": "LAPTOP-GQ0RK8CK"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff709a12449",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff709a169a9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff709a15828",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff709b4d8c2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a369bbe",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a351c91",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a21e1ec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a226171",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a21b743",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a219db4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a23afbd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff709fa1871",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a7b6c4d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a8203fb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a73bbfc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a739131",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a738d1c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a2778a3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a277226",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a34829d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff709b7679e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff709b769d7",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff709b750ba",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff709b0479c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff709b76433",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7099e6a9c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff70a86ed38",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffd1ff77bd4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ffd21c0ce51",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 7315456,
+    "totalCommittedMemory": 7315456,
+    "usedMemory": 6137992,
+    "availableMemory": 2147976064,
+    "memoryLimit": 2153775104,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1047448,
+        "available": 8
+      },
+      "old_space": {
+        "memorySize": 4861952,
+        "committedMemory": 4861952,
+        "capacity": 4740632,
+        "used": 4271680,
+        "available": 468952
+      },
+      "code_space": {
+        "memorySize": 430080,
+        "committedMemory": 430080,
+        "capacity": 182080,
+        "used": 182080,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 470080,
+        "used": 470080,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 135168,
+        "committedMemory": 135168,
+        "capacity": 131112,
+        "used": 131112,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1.14,
+    "kernelCpuSeconds": 1.359,
+    "cpuConsumptionPercent": 11.3591,
+    "maxRss": 27299840,
+    "pageFaults": {
+      "IORequired": 9021,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 360,
+      "writes": 7
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ADSK_CLM_WPAD_PROXY_CHECK": "FALSE",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\пк\\AppData\\Roaming",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-GQ0RK8CK",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/mingw64/etc/config.site",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOME": "C:\\Users\\пк",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\пк",
+    "HOSTNAME": "LAPTOP-GQ0RK8CK",
+    "INFOPATH": "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "LANG": "ru_RU.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\пк\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-GQ0RK8CK",
+    "MANPATH": "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw64",
+    "NUMBER_OF_PROCESSORS": "4",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\пк\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client;C:\\Program Files\\Intel\\iCLS Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\QuickTime\\QTSystem;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Users\\пк\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\пк\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\пк\\AppData\\Roaming\\npm",
+    "ORIGINAL_TEMP": "C:/Users/7349~1/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/7349~1/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\пк\\OneDrive",
+    "OnlineServices": "Online Services",
+    "PATH": "C:\\Users\\пк\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\пк\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client;C:\\Program Files\\Intel\\iCLS Client;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files (x86)\\QuickTime\\QTSystem;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn;C:\\Program Files\\Common Files\\Autodesk Shared;C:\\Program Files\\Intel\\WiFi\\bin;C:\\Program Files\\Common Files\\Intel\\WirelessCommon;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Users\\пк\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\пк\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\пк\\AppData\\Roaming\\npm;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 78 Stepping 3, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4e03",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/1моя папочка1/верстка/портфолио/Coffee-house",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "RegionCode": "EMEA",
+    "SESSIONNAME": "Console",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\7349~1\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TMP": "C:\\Users\\7349~1\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\7349~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-GQ0RK8CK",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-GQ0RK8CK",
+    "USERNAME": "пк",
+    "USERPROFILE": "C:\\Users\\пк",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node",
+    "platformcode": "AN"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}

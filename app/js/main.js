@@ -5,14 +5,17 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         infinite: true,
-        speed: 900,
-        dots: true
-
+        speed: 700,
+        dots: true,
+        nextArrow: '<button type="button" class="slick-arrow slick-next"><img src="images/icons/next-arrow.png" alt=""></button>',
+        prevArrow: '<button type="button" class="slick-arrow slick-prev"><img src="images/icons/prev-arrow.png" alt=""></button>'
     });
 
-
+    $('.menu__btn').on('click', function () {
+        $('.menu__list').slideToggle();
+    });
 
 
     $('.cooking__tabs .tab').on('click', function(event) {

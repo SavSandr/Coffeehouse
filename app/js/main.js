@@ -9,8 +9,8 @@ $(function () {
         infinite: true,
         speed: 700,
         dots: true,
-        nextArrow: '<button type="button" class="slick-arrow slick-next"><img src="images/icons/next-arrow.png" alt=""></button>',
-        prevArrow: '<button type="button" class="slick-arrow slick-prev"><img src="images/icons/prev-arrow.png" alt=""></button>'
+        nextArrow: '<button type="button" class="slick-arrow slick-next"><img src="app/images/icons/next-arrow.png" alt=""></button>',
+        prevArrow: '<button type="button" class="slick-arrow slick-prev"><img src="app/images/icons/prev-arrow.png" alt=""></button>'
     });
 
     $('.menu__btn').on('click', function () {

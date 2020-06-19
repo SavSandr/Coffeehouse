@@ -6,6 +6,10 @@
 .header {
     background-color: #1c0e0f;
     height: 70px;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
 }
 
 .header__inner {
@@ -79,7 +83,7 @@
     position: relative;
 }
 .intro__bg {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     padding-top: 160px;
     width: 100%;
     height: 100%;
@@ -90,7 +94,11 @@
 }
 .intro__inner {
     position: absolute;
-    right: 30px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0,-50%);
     text-align: center;
 }
 .intro__title {
@@ -117,11 +125,11 @@
 .intro__subtitle {
     max-width: 725px;
     font-size: 24px;
-    margin-bottom: 80px;
     color: #fff;
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
+    margin: 0 auto 80px;
 }
 .intro__btn {
     border: 1px solid $gold;

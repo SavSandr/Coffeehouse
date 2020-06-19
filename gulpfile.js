@@ -52,7 +52,7 @@ gulp.task('script', function () {
 });
 
 gulp.task('html', function () {
-    return gulp.src('*.html')
+    return gulp.src('app/*.html')
         .pipe(browserSync.reload({ stream: true }))
 });
 gulp.task('js', function () {
@@ -70,7 +70,7 @@ gulp.task('browser-sync', function () {
 
 gulp.task('watch', function () {
     gulp.watch('app/scss/**/*.scss', gulp.parallel('sass'));
-    gulp.watch('*.html', gulp.parallel('html'));
+    gulp.watch('app/*.html', gulp.parallel('html'));
     gulp.watch('app/js/*.js', gulp.parallel('js'));
 });
 
